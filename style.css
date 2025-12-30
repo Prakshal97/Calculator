@@ -1,0 +1,82 @@
+.calculator{
+    height: 35rem;
+    width: 22rem;
+    background-color: black;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    margin-top: 5rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.answers{ 
+    height: 8rem;
+    width: 100%;
+    /* background-color: aliceblue; */
+    border-top-left-radius: 10px;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.ops1{
+    align-content: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(224, 205, 205);
+    color: black;
+    border-radius: 50%;
+}
+.ops1 p{
+    position: relative;
+    left: 1.1rem;
+    font-weight: 600;
+}
+.operands{
+    align-content: center;
+    background-color: orange;
+     height: 3rem;
+    width: 3rem;
+     border-radius: 50%;
+}
+.operands p{
+    align-items: center;
+    position: relative;
+    left: 1.1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0 auto;
+}
+.ops{
+     align-content: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: #232232;
+    color: white;
+    border-radius: 50%;
+}
+.ops p{
+    position: relative;
+    left: 1.1rem;
+    font-weight: 600;
+   
+}
+.answers{
+    display: flex;
+    font-size: 3rem;
+    justify-content:flex-start;
+    align-items:flex-end;
+    align-content: flex-end;
+}
+.operator1{
+    padding: 0.4rem;
+}
+.operator2{
+    padding: 0.4rem;
+}
+.operand{
+    padding: 0.4rem;
+}
